@@ -15,3 +15,16 @@
 - Second step: implement the formulas in JavaScript
 - Third step: create functions
 - Fourth step: integrate JS with Html
+## Workshop # 3: mean, median and mode
+
+- First step: define the formulas
+- Second step: implement the formulas in JavaScript
+- Third step: create functions
+- Fourth step: integrate JS with Html
+
+## Workshop # 4: salary analysis
+
+- First step: define the formulas
+- Second step: implement the formulas in JavaScript
+- Third step: create functions
+- Fourth step: integrate JS with Html

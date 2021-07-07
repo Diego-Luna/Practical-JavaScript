@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Statistical Tools</title>
+  <link rel="stylesheet" href="../Workshop 1 - Geometric Figures/style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>
+      Statistical tools
+    </h1>
+    <p>You can calculate the:</p>
+  </header>
+
+  <section class="container">
+    <section>
+
+      <div class="icon-container">
+        <img class="icon" src="./icons/estimates-90.png" alt="estimates">
+      </div>
+
+      <h2>Mean</h2>
+
+      <form action="">
+
+        <label for="InputMean">
+          Write the data and separate it with a comma
+        </label>
+        <input type="text" id="InputMean" placeholder="1,2,3,4,5,6">
+
+        <p>Result:</p>
+        <p class="Result-dato-p" id="ResultMean"></p>
+
+        <div class="button-container">
+          <button type="button" onclick="CalculateValueMean();">
+            Calculate mean
+          </button>
+        </div>
+
+      </form>
+    </section>
+
+    <section>
+
+      <div class="icon-container">
+        <img class="icon" src="./icons/estimates-90.png" alt="estimates">
+      </div>
+
+      <h2>Median</h2>
+
+      <form action="">
+
+        <label for="InputMediana">
+          Write the data and separate it with a comma
+        </label>
+
+        <div class="input-container" id="InputTriangle">
+          <input type="text" id="InputMediana" placeholder="1,2,3,4,5,6">
+        </div>
+
+        <p>Result:</p>
+        <p class="Result-dato-p" id="ResultMediana"></p>
+
+        <div class="button-container">
+          <button type="button" onclick="CalculateValueMediana();">
+            Calculate median
+          </button>
+        </div>
+
+      </form>
+    </section>
+
+    <section>
+
+      <div class="icon-container">
+        <img class="icon" src="./icons/estimates-90.png" alt="estimates">
+      </div>
+
+      <h2>Mode</h2>
+
+      <form action="">
+
+        <label for="InputModa">
+          Write the data and separate it with a comma
+        </label>
+        <input type="text" id="InputModa" placeholder="1,2,3,4,5,6">
+
+        <p>Result:</p>
+        <p class="Result-dato-p" id="ResultModa"></p>
+
+        <div class="button-container">
+          <button type="button" onclick="CalculateValueModa();">
+            Calculate mode
+          </button>
+
+        </div>
+
+      </form>
+    </section>
+
+  </section>
+
+
+  <script src="./mean.js"></script>
+  <script src="./mediana.js"></script>
+  <script src="./moda.js"></script>
+</body>
+
+</html>

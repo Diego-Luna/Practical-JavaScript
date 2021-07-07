@@ -131,6 +131,12 @@ button {
   padding: 15px 0 15px 0;
 }
 
-input{
+input {
   margin-bottom: 25px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
 }

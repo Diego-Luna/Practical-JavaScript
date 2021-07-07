@@ -23,3 +23,19 @@ function calcularModa(lista) {
 
   return moda;
 }
+
+function CalculateValueModa() {
+  const inputPrice = document.getElementById("InputModa");
+  const priceValue = inputPrice.value;
+
+  const arrayLista = priceValue.split(",");
+
+  const arrayNumber = arrayLista.map((value) => {
+    return parseInt(value);
+  });
+
+  const result = calcularModa(arrayNumber);
+
+  const resultP = document.getElementById("ResultModa");
+  resultP.innerText = "The arithmetic mode is: " + result[0];
+}

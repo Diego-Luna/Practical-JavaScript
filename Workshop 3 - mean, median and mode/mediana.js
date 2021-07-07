@@ -44,3 +44,20 @@ function calcularMediaAritmetica(lista) {
   const promedio = sumaLista / lista.length;
   return promedio;
 }
+
+function CalculateValueMediana() {
+  const inputPrice = document.getElementById("InputMediana");
+  const priceValue = inputPrice.value;
+
+  const arrayLista = priceValue.split(",");
+
+  const arrayNumber = arrayLista.map((value) => {
+    return parseInt(value);
+  });
+
+  const result = calcularMediaAritmetica(arrayNumber);
+
+  const resultP = document.getElementById("ResultMediana");
+  resultP.innerText = "The median is: " + result;
+}
+

@@ -130,3 +130,7 @@ button {
   box-shadow: inset 20px 20px 60px #bebebe, inset -20px -20px 60px #ffffff;
   padding: 15px 0 15px 0;
 }
+
+input{
+  margin-bottom: 25px;
+}

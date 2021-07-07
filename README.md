@@ -1,5 +1,7 @@
 # Practical-JavaScript
 
+[Link](https://diego-luna.github.io/Practical-JavaScript/) : https://diego-luna.github.io/Practical-JavaScript/
+
 ...
 
 ## Workshop # 1: geometric figures

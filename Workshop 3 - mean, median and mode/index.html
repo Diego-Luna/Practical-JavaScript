@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geometric Figures</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>
+      Geometric Figures
+    </h1>
+    <p>Calculate the are and the perimeter of the following figures.</p>
+  </header>
+
+  <section class="container">
+    <section>
+
+      <div class="icon-container">
+        <img class="icon" src="./icons/four-squares-100.png" alt="squares">
+      </div>
+
+      <h2>Square</h2>
+
+      <form action="">
+
+        <label for="InputSquare">
+          write how long each side of your square is:
+        </label>
+        <input type="number" id="InputSquare" placeholder="Side">
+
+        <div class="button-container">
+          <button type="button" onclick="calculatePerimeterSquare();">
+            Calculate perimeter
+          </button>
+          <button type="button" onclick="calculateAreaSquare();">
+            Calculate area
+          </button>
+        </div>
+
+      </form>
+    </section>
+
+    <section>
+
+      <div class="icon-container">
+        <img class="icon" src="./icons/three-triangles-90.png" alt="squares">
+      </div>
+
+      <h2>Triangles</h2>
+
+      <form action="">
+
+        <label for="InputTriangle">
+          write how long the sides of the triangle are:
+        </label>
+
+        <div class="input-container" id="InputTriangle" >
+          <input type="number" id="InputTriangleSide1" placeholder="Side 1">
+          <input type="number" id="InputTriangleSide2" placeholder="Side 2">
+          <input type="number" id="InputTriangleBase" placeholder="Base">
+          <input type="number" id="InputTriangleHeight" placeholder="Height">
+        </div>
+
+        <div class="button-container">
+          <button type="button" onclick="calculatePerimeterTriangle();">
+            Calculate perimeter
+          </button>
+          <button type="button" onclick="calculateAreaTriangle();">
+            Calculate area
+          </button>
+        </div>
+
+      </form>
+    </section>
+
+    <section>
+
+      <div class="icon-container">
+        <img class="icon" src="./icons/unity-symbol-90.png" alt="squares">
+      </div>
+
+      <h2>Circle</h2>
+
+      <form action="">
+
+        <label for="InputCircle">
+          write how long the radius of the circle is:
+        </label>
+        <input type="number" id="InputCircle" placeholder="Radio" >
+
+        <div class="button-container">
+          <button type="button" onclick="calculatePerimeterCircle();">
+            Calculate perimeter
+          </button>
+          <button type="button" onclick="calculateAreaCircle();">
+            Calculate area
+          </button>
+        </div>
+
+      </form>
+    </section>
+
+  </section>
+
+
+  <script src="./figures.js"></script>
+</body>
+
+</html>

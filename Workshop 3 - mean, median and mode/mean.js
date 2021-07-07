@@ -23,6 +23,6 @@ function CalculateValueMean() {
 
   const result = calcularMediaAritmetica(priceValue);
 
-  const resultP = document.getElementById("ResultPriceMean");
+  const resultP = document.getElementById("ResultMean");
   resultP.innerText = "The average is: " + result;
 }

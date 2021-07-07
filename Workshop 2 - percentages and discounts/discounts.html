@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Percentages and discounts</title>
+  <link rel="stylesheet" href="../Workshop 1 - Geometric Figures/style.css">
 </head>
 
 <body>
@@ -13,26 +14,39 @@
     <h1>
       Percentages and discount
     </h1>
+    <p>Calculate the price to pay of your discounted products</p>
+
   </header>
 
-  <section>
-    <h2>Calculate the price to pay of your discounted products</h2>
+  <section class="container">
+    <section>
 
-    <form action="">
+      <div class="icon-container">
+        <img class="icon" src="./icons/discount-100.png" alt="squares">
+      </div>
 
-      <label for="InputPrice">Write the price of your product:</label>
-      <input type="number" id="InputPrice">
+      <h2>Test</h2>
 
-      <label for="InputDiscount">Write the discount of your product:</label>
-      <input type="number" id="InputDiscount" >
+      <form action="">
 
-      <button type="button" onclick="CalculateValue()" >
-        Calculate the discounted price
-      </button>
+        <label for="InputPrice">Write the price of your product:</label>
+        <input type="number" id="InputPrice">
 
-      <p id="ResultPrice"></p>
+        <label for="InputDiscount">Write the discount of your product:</label>
+        <input type="number" id="InputDiscount">
 
-    </form>
+        <p>Result:</p>
+        <p class="Result-dato-p" id="ResultPrice"></p>
+
+        <div class="button-container">
+          <button type="button" onclick="CalculateValue()">
+            Calculate the discounted price
+          </button>
+        </div>
+
+
+      </form>
+    </section>
 
   </section>
 
